@@ -1,6 +1,18 @@
+
+:root{
+    --main-primary-color: #671636;
+    --main-secund-color:#862048;
+}
+
+.bg-primary-color{
+    background-color: var(--main-primary-color);
+}
 .navbar-brand img{
     height: 90px;
     padding-top: 10px;
 }
 
-/*color: #663399;*/
+.column h1{
+    color: var(--main-primary-color);
+}
+
