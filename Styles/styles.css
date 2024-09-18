@@ -1,18 +1,30 @@
 
 :root{
-    --main-primary-color: #671636;
-    --main-secund-color:#862048;
+    --primary-color: #671636;
+    --secund-color:#862048;
 }
 
 .bg-primary-color{
-    background-color: var(--main-primary-color);
+    background-color: var(--primary-color);
 }
 .navbar-brand img{
     height: 90px;
     padding-top: 10px;
 }
 
-.column h1{
-    color: var(--main-primary-color);
+.my-primary-color{
+    color: var(--primary-color);
 }
 
+.my-line-height{
+    line-height: 3;
+}
+
+.my-ico-bg{
+    background-color: var(--primary-color); 
+    padding: 0.5rem; 
+    border-radius: 20%;
+}
+.my-ico-color{
+    color: white;
+}
