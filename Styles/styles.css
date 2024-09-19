@@ -23,6 +23,9 @@
 .my-line-height{
     line-height: 4rem;
 }
+.my-line-height-footer{
+    line-height: 3rem;
+}
 
 .my-ico-bg{
     background-color: var(--primary-color); 
