@@ -3,6 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Meta TEG OG-->
+    <meta property="og:type" content="Website"/>
+    <meta property="og:title" content="Pet Valley - Clínica Veterinária"/>
+    <meta property="og:image" content="http://127.0.0.1:5501/Assets/LogotipoVinho.png"/>
+    <meta property="og:description" content="Aqui Cuidamos com Amor"/>
+    <meta property="og:site_name" content="Pet Valley"/>
+
+
     <!--CSS Bulma-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
     <!--Css MEU-->
@@ -32,11 +41,11 @@
                 <div class="navbar-menu" id="nav-links">
                     <div class="navbar-start"></div>
                     <div class="navbar-end" id="nav-center">
-                        <a class="navbar-item" href="#">Inicio</a>
-                        <a class="navbar-item" href="#servicos">Serviços</a>
-                        <a class="navbar-item" href="#Especialidades">Especialidades</a>
-                        <a class="navbar-item" href="#sobre">Sobre Nos</a>                        
-                        <a class="navbar-item" href="#contato">Contato</a>
+                        <a class="navbar-item nav-txt" href="#">Inicio</a>
+                        <a class="navbar-item nav-txt" href="#servicos">Serviços</a>
+                        <a class="navbar-item nav-txt" href="#Especialidades">Especialidades</a>
+                        <a class="navbar-item nav-txt" href="#sobre">Sobre Nos</a>                        
+                        <a class="navbar-item nav-txt" href="#contato">Contato</a>
                     </div>
                     <div class="navbar-end is-hidden-touch">
                         <span class="navbar-item">
@@ -296,7 +305,7 @@
                                 <img src="./Assets/equipe/MED1.png" alt="Placeholder image"/>
                             </figure>
                             </div>
-                            <div>
+                            <div class="card-content">
                                 <p class="mt-4 mb-0 title is-5 has-text-centered my-primary-color">Fulana Med</p>
                                 <p class="has-text-centered">Lorem ipsum dolor sit</p>
                             </div>
@@ -311,7 +320,7 @@
                                 <img src="./Assets/equipe/MED2.png" alt="Placeholder image"/>
                             </figure>
                             </div>
-                            <div>
+                            <div class="card-content">
                                 <p class="mt-4 mb-0 title is-5 has-text-centered my-primary-color">Ciclano Med</p>
                                 <p class="has-text-centered">Lorem ipsum dolor sit</p>
                             </div>
@@ -326,7 +335,7 @@
                                 <img src="./Assets/equipe/MED3.png" alt="Placeholder image"/>
                             </figure>
                             </div>
-                            <div>
+                            <div class="card-content">
                                 <p class="mt-4 mb-0 title is-5 has-text-centered my-primary-color">Beltrana Med</p>
                                 <p class="has-text-centered">Lorem ipsum dolor sit</p>
                             </div>
@@ -350,22 +359,65 @@
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eos laboriosam facilis enim, nemo quasi libero ea saepe qui deserunt ab necessitatibus inventore
                              quaerat sit eius cupiditate quis. Dolore mollitia vero, 
                         </p>
-                        <p class="subtitle is-6 is-spaced">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eos laboriosam facilis enim, nemo quasi libero ea saepe qui deserunt  
-                        </p>
                         <div>
                             <button class="button box is-success has-text-white">
                                 <i class="fas fa-brands fa-whatsapp px-2"></i>
-                                <span>Agendar Visita</span>
+                                <span>Agendar consulta</span>
                             </button>
                         </div>
+
+
                     </div>
-                    <div class="column is-5 image is-2by3 is-hidden-touch">
-                        <img class=" is-rounded" src="./Assets/Footer.jpg" alt="fachada clinica">
+                    
+                    <div class="column is-5 image is-5by4 is-hidden-touch">
+                        <img class=" is-rounded" src="./Assets/Contato2.jpg" alt="fachada clinica">
                     </div>
                 </div>
             </div>
-        </section>        
+        </section>    
+        
+        <!--Cards Contato-->
+        <section id="equipe" class="section">
+            <div class="container">
+                <div class="mt-6 columns is-centered">
+                    <!--box 1-->
+                    <div class="column is-one-quarter ">
+                        <div class="box">
+                             <div class="has-text-centered">
+                                <p><i class="fa-2x fa-solid fa-phone-volume my-primary-color"></i></p>
+                                <p class="my-3 title is-5 my-primary-color">Liga pra Gente</p>
+                                <p class="">(11)91111-1111</p>
+                                <p class="">(11)92222-2222</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--box 2-->
+                    <div class="column is-one-quarter ">
+                        <div class="box">
+                             <div class="has-text-centered">
+                                <p><i class="fa-2x fa-solid fa-location-dot my-primary-color"></i></p>
+                                <p class="my-3 title is-5 my-primary-color">Faça uma Visita</p>
+                                <p>Rua devtec, 2024 - Web Dev</p>
+                                <p>Fortaleza - CE</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--box 3-->
+                    <div class="column is-one-quarter ">
+                        <div class="box">
+                             <div class="has-text-centered">
+                                <p><i class="fa-2x fa-solid fa-envelope my-primary-color"></i></p>
+                                <p class="my-3 title is-5 my-primary-color">Envie um E-mail</p>
+                                <p class="py-3">contato@teste.com</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>   
+            </div> 
+        </section>
     </main>
 
     <!--footer-->
@@ -418,9 +470,9 @@
             <div class="column is-4">
                 <div>
                     <h1 class="subtitle has-text-white">Contato</h1>
-                    <p class="my-line-height-footer"><i class="mr-2 fa-solid fa-phone"></i>Telefone: (85)91111-1111</a></p>
+                    <p class="my-line-height-footer"><i class="mr-2 fa-solid fa-phone"></i>Telefone: (85)91111-1111 / (85)92222-2222</a></p>
                     <p class="my-line-height-footer"><i class="mr-3 fa-brands fa-whatsapp"></i>Whatsapp: (85)91111-1111</a></p>
-                    <p class="my-line-height-footer"><i class="mr-3 fa-regular fa-envelope"></i>Email: teste@teste.com</p>
+                    <p class="my-line-height-footer"><i class="mr-3 fa-regular fa-envelope"></i>Email: contato@teste.com</p>
                     <p class="my-line-height-footer"><i class="mr-4 fa-solid fa-location-dot"></i>Endereço: Rua devtec, 2024 - Fortaleza - CE</p>
                     <p><i class="mr-4 fa-regular fa-clock"></i>Horáro de Funcionamento: Seg-Sex 8:00-18:00, Sáb 8:00-12:00</p>
                 </div>

@@ -4,6 +4,10 @@
     --secund-color:#862048;
 }
 
+.nav-txt:hover{
+    border-bottom: 3px solid var(--primary-color);
+}
+
 .mybg-primary-color{
     background-color: var(--primary-color);
 }
