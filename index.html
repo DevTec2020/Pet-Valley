@@ -13,6 +13,7 @@
     <title>Pet Valley</title>
 </head>
 <body >
+    <!--Nav Bar-->
     <header>
         <nav class="navbar has-shadow is-white">
             <div class="container">
@@ -33,8 +34,8 @@
                     <div class="navbar-end" id="nav-center">
                         <a class="navbar-item" href="#inicio">Inicio</a>
                         <a class="navbar-item" href="#servicos">Serviços</a>
-                        <a class="navbar-item" href="#equipe">Nossa Equipe</a>
                         <a class="navbar-item" href="#Especialidades">Especialidades</a>
+                        <a class="navbar-item" href="#sobre">Sobre Nos</a>                        
                         <a class="navbar-item" href="#contato">Contato</a>
                     </div>
                     <div class="navbar-end is-hidden-touch">
@@ -82,7 +83,7 @@
         </section>
 
         <!--Serviços-->
-        <section id="servicos" class="section bg-primary-color">
+        <section id="servicos" class="section mybg-primary-color">
             <div class="container">
                 <h1 class="title is-3 has-text-centered	has-text-white">Nossos Serviços</h1>
                 <p class="has-text-centered has-text-white">
@@ -91,14 +92,14 @@
             
                 <div class="mt-6 columns is-multiline is-centered">
                     <!--Clinica Médica-->
-                    <div class="column is-one-quarter">
+                    <div class="column is-one-quarter ">
                         <div class="card">
                             <div class="card-image">
                             <figure class="image is-4by3">
                                 <img src="./Assets/Servicos/clinica.png" alt="Placeholder image"/>
                             </figure>
                             </div>
-                            <div class="card-content">
+                            <div class="card-content ">
                                 <p class="title is-5 has-text-centered">Clinica Médica / Cirúrgica</p>
                                 <p class="content has-text-centered">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, dolores ratione aperiam eveniet maxime consectetur voluptates.
@@ -139,7 +140,7 @@
                             </figure>
                             </div>
                             <div class="card-content">
-                                <p class="title is-5 has-text-centered">Exames de Imagem</p>
+                                <p class="title is-5 has-text-centered">Diagnóstico por Imagem</p>
                                 <p class="content has-text-centered">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, dolores ratione aperiam eveniet maxime consectetur voluptates.
                                 </p>
@@ -182,13 +183,43 @@
                 <p class="has-text-centered">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio aliquid rem id nihil cum ullam nobis itaque, sunt odio magni.</p>
 
                 <div class="mt-5 columns is-multiline is-centered">
-                    <!--lista direito-->
+                    <!--lista icones direito-->
                     <div class="column is-one-quarter has-text-right mt-6 my-line-height">
-                        <p class="my-primary-color">Clinica Geral<span class="ml-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-house-chimney-medical"></i></span></p>
-                        <p class="my-primary-color">Consultas com Especialistas<span class="ml-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-user-doctor"></i></span></p>
-                        <p class="my-primary-color">Animais Silvestres e Exóticos<span class="ml-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-spider"></i></span></p>
-                        <p class="my-primary-color">Cirurgias<span class="ml-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-heart-pulse"></i></span></p>
-                        <p class="my-primary-color">Exames Laboratoriais<span class="ml-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-vial"></i></span></p>
+                        <!--Ico Cirurgias-->
+                        <p>
+                            <span class="mr-2 my-primary-color">Cirurgias</span>
+                            <span class="is-large my-ico-bg has-text-white">
+                                <i class="fas fa-lg fa-solid fa-heart-pulse"></i>
+                            </span>
+                        </p>                         
+                        <!--Ico Clinica Geral-->
+                        <p>
+                            <span class="mr-2 my-primary-color">Clinica Geral</span>
+                            <span class="is-large my-ico-bg has-text-white">
+                                <i class="fas fa-lg fa-solid fa-house-chimney-medical"></i>
+                            </span>
+                        </p>
+                        <!--Ico Exames Laboratoriais-->
+                        <p>
+                            <span class="mr-2 my-primary-color">Exames Laboratoriais</span>
+                            <span class="is-large my-ico-bg has-text-white">
+                                <i class="fas fa-lg fa-solid fa-vial"></i>
+                            </span>
+                        </p>
+                        <!--Ico Especialistas-->
+                        <p>
+                            <span class="mr-2 my-primary-color">Consultas com Especialistas</span>
+                            <span class="is-large my-ico-bg has-text-white">
+                                <i class="fas fa-lg fa-solid fa-user-doctor"></i>
+                            </span>
+                        </p> 
+                        <!--Ico Animais Silvestres-->
+                        <p>
+                            <span class="mr-2 my-primary-color">Animais Silvestres e Exóticos</span>
+                            <span class="is-large my-ico-bg has-text-white">
+                                <i class="fas fa-lg fa-solid fa-spider"></i>
+                            </span>
+                        </p>  
                     </div>
 
                     <!--Imagem centro-->
@@ -196,20 +227,58 @@
                         <img src="./Assets/Dog-Especialidades.png" alt="">
                     </div>
 
-                    <!--lista esquerda-->
+                    <!--lista icones esquerda-->
                     <div class="column is-one-quarter mt-6 my-line-height">
-                        <p class="my-primary-color"><span class="mr-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-x-ray"></i></span>Exames de Imagem</p>
-                        <p class="my-primary-color"><span class="mr-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-syringe"></i></span>Vacinas</p>
-                        <p class="my-primary-color"><span class="mr-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-capsules"></i></span>Farmácia</p>
-                        <p class="my-primary-color"><span class="mr-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-shower"></i></span>Banho e Tosa</p>
-                        <p class="my-primary-color"><span class="mr-3 ico my-ico-bg"><i class="fa-lg my-ico-color fa-solid fa-hotel"></i></span>pet Hotel</p>
+                        <!--Ico Vacinas-->
+                        <p><span class="mr-3 ico my-ico-bg"><i class="fa-lg has-text-white fa-solid fa-syringe"></i></span><span class="my-primary-color">Vacinas</span></p> 
+
+                        <!--Ico Farmácia-->
+                        <p><span class="mr-3 ico my-ico-bg"><i class="fa-lg has-text-white fa-solid fa-capsules"></i></span><span class="my-primary-color">Farmácia</span></p> 
+
+                        <!--Ico pet Hotel-->
+                        <p><span class="mr-3 ico my-ico-bg"><i class="fa-lg has-text-white fa-solid fa-hotel"></i></span><span class="my-primary-color">pet Hotel</span></p> 
+                        
+                        <!--Ico Banho e Tosa-->
+                        <p><span class="mr-3 ico my-ico-bg"><i class="fa-lg has-text-white fa-solid fa-shower"></i></span><span class="my-primary-color">Banho e Tosa</span></p>
+
+                        <!--Ico Diagnóstico por Imagem-->
+                        <p><span class="mr-3 ico my-ico-bg has-text-white"><i class="fas fa-lg fa-solid fa-x-ray"></i></span><span class="my-primary-color">Diagnóstico por Imagem</span></p>
                     </div>
                 </div>
             </div>
         </section>
 
-        
-          
+        <!--Sobre Nos-->
+        <section id="sobre" class="section mybg-primary-color">
+            <div class="container">
+                <div class="columns is-variable is-8 is-flex-desktop is-justify-content-space-around">
+                    <div class="column is-5">
+                        <img class="card-image" src="./Assets/Clinica1.png" alt="fachada clinica">
+                    </div>
+                    <div class="column is-5 is-flex is-flex-direction-column is-justify-content-center">
+                        <h1 class="title is-2 is-spaced has-text-white">Venha nos Conhecer</h1>
+                        <p class="subtitle is-6 is-spaced has-text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eos laboriosam facilis enim, nemo quasi libero ea saepe qui deserunt ab necessitatibus inventore
+                             quaerat sit eius cupiditate quis. Dolore mollitia vero, 
+                        </p>
+                        <p class="subtitle is-6 is-spaced has-text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eos laboriosam facilis enim, nemo quasi libero ea saepe qui deserunt ab necessitatibus inventore
+                             quaerat sit eius cupiditate quis. Dolore mollitia vero, 
+                        </p>
+                        <p class="subtitle is-6 is-spaced has-text-white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eos laboriosam facilis enim, nemo quasi libero ea saepe qui deserunt  
+                        </p>
+                        <div>
+                            <button class="button box is-success has-text-white">
+                                <i class="fas fa-brands fa-whatsapp px-2"></i>
+                                <span>Agendar Visita</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
       
     <script src="./Scripts/index.js"></script>

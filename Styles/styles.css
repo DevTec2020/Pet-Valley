@@ -4,9 +4,13 @@
     --secund-color:#862048;
 }
 
-.bg-primary-color{
+.mybg-primary-color{
     background-color: var(--primary-color);
 }
+.mybg-secund-color{
+    background-color: var(--secund-color);
+}
+
 .navbar-brand img{
     height: 90px;
     padding-top: 10px;
@@ -17,7 +21,7 @@
 }
 
 .my-line-height{
-    line-height: 3;
+    line-height: 4rem;
 }
 
 .my-ico-bg{
@@ -25,6 +29,4 @@
     padding: 0.5rem; 
     border-radius: 20%;
 }
-.my-ico-color{
-    color: white;
-}
+
